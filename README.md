@@ -1,10 +1,34 @@
 # Airlines On-time Performance
+## Project Description:
+This project aims to analyze the 2019 airline on-time performance data for flights originating from or departing to Arizona (AZ), Nevada (NV), and California (CA). The key objectives of this project are:
 
-This project analyzes the 2019 airline on-time performance data for flights originating from or departing to Arizona (AZ), Nevada (NV), and California (CA). The key findings are:
+## Data Cleaning and Preprocessing:
 
-* The dataset contains over 1.8 million flight records with information such as flight dates, carrier codes, flight numbers, origin and destination airports, departure and arrival times, delays, elapsed times, and distances.Exploratory data analysis reveals patterns such as monthly variations in the number of flights, top airlines by number of flights, and popular origin and destination airports for the three states.
-* The analysis of flight delays shows that some airlines, such as UA, DL, and OO, exhibit higher average departure and arrival delays compared to other top airlines like WN and DL.
-* The top 10 airlines by on-time performance percentage are identified, and their monthly total flight hours are analyzed to understand seasonal patterns.
-* Three specific aircraft are selected, and their travel routes and average delays at different airports are investigated to uncover potential operational issues or patterns.
+* Handling missing values and converting data types to appropriate formats.
+* Calculating and adding new features, such as elapsed time in hours.
 
-Overall, the project provides valuable insights into the airline industry's on-time performance, which could be used to identify areas for improvement and enhance the overall passenger experience.
+
+## Exploratory Data Analysis:
+
+* Visualizing the number of flights per month, by carrier code, and by origin/destination airports.
+* Analyzing the air traffic patterns for the AZ, NV, and CA regions.
+* Identifying the top destination airports for each state.
+
+
+## Airline Performance Analysis:
+
+* Calculating summary statistics (mean, median, standard deviation, min, max) for departure and arrival delays for each airline and airport.
+* Identifying airlines that are more prone to delays and analyzing the patterns.
+* Determining the airlines with the best on-time performance records.
+* Analyzing the total flight hours per month for the top 10 airlines.
+
+
+## Aircraft-specific Analysis:
+
+* Selecting three aircraft and analyzing their most frequent travel routes.
+* Calculating the average arrival and departure delays at the airports for each aircraft.
+* Identifying patterns and insights based on the aircraft-specific analysis.
+
+## Conclusion
+
+This project provides valuable insights into the airline industry's on-time performance, including the identification of factors influencing flight delays, the comparison of carrier performance, and the analysis of aircraft-specific patterns. The findings can be used to improve operational efficiency, enhance customer experience, and support decision-making processes in the aviation industry.
